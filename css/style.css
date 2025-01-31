@@ -1,0 +1,155 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --corPrincipal: #d31515;
+    --fontPrinciapal: black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: "Poppins", serif;
+    color: #fff;
+    background-color: #1f1f1f;
+    border: 2px solid var(--fontPrinciapal);
+}
+
+/* -----------------------
+    CSS DO INICIO
+----------------------- */
+.inicio {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-image: url('/images/fundonuvem.jpg');
+}
+.inicio p {
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+    /* padding-bottom: 2%; */
+    margin: 20px;
+}
+
+.ceu {
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.quadrado1 {
+    color: #fff;
+    background-color: #d31515;
+    border: 3px solid #111111;
+    border-radius: 19px;
+    margin: 10px 50px;
+    padding: 15px 30px;
+    text-align: center;
+}
+.quadrado1:hover {
+    background-color: #530808;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+}
+
+.quadrados {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; /* Permite que os quadrados "desçam" para a próxima linha quando ultrapassar o limite */
+}
+
+.quadradofonte {
+    display: flex;
+    margin-left: 12%;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.quadrado {  
+    color: #000;
+    font-weight: bolder;
+    background-color: #bdbdbd;
+    border: 3px solid #111111;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Garantir que o padding e a margem sejam considerados no tamanho total */
+
+}
+
+
+
+
+
+
+
+
+
+/* Estilo do carrossel */
+ .carousel-container {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    overflow: hidden; /* Oculta as imagens que estão fora da área visível */
+} 
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease; /* Desliza as imagens suavemente */
+}
+
+.carousel-item {
+    flex: 0 0 33.3333%; /* Exibe 3 imagens por vez, cada uma ocupa 1/3 do contêiner */
+    padding: 5px; /* Espaçamento entre as imagens */
+}
+
+.carousel-item div {
+    height: 100px; /* Altura fixa para os quadrados */
+}
+
+/* Botões de navegação */
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+} 

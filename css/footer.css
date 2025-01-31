@@ -1,0 +1,23 @@
+footer {
+    color: #fff;
+    background-color: #111111;
+    padding: 1.5rem 14%;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer ul .icons {
+    margin: 0rem 1rem;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 1rem 1rem;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
