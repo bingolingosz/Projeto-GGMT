@@ -90,7 +90,7 @@ a {
 }
 
 .quadrado {  
-    color: #000;
+    
     font-weight: bolder;
     background-color: #bdbdbd;
     border: 3px solid #111111;
@@ -99,9 +99,10 @@ a {
     padding: 10px;
     text-align: center;
     box-sizing: border-box; /* Garantir que o padding e a margem sejam considerados no tamanho total */
-
 }
-
+.quadrado a {
+    color: #000;
+}
 
 
 

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobreviventes</title>
+    <link rel="stylesheet" href="site sobreviventes.css">
+</head>
+<body>
+    <!--PreLoader / Tela de Carregamento -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+    
+    <!-- cabeçalho do site -->
+    <header>
+        <!-- menu de navegação -->
+        <nav>
+            <!-- pra acessar outra aba ou link -->
+            | <a href="#">SOBRE NÓS</a> | <a href="#">GALERIA</a> | <a href="#">CONTATOS</a> | <a href="#">LINKS</a> |
+        </nav>
+    </header>
+
+    <!-- título da página -->
+    <div class="titulo">
+        <h1>Sobreviventes</h1>
+        <p>Em "Dead by Daylight", os Sobreviventes são os personagens que tentam escapar do Assassino e completar objetivos para garantir sua sobrevivência. Cada Sobrevivente possui habilidades e características únicas que podem ajudá-los a superar os desafios impostos pelos Assassinos.</p>
+    </div>
+
+    <div class="container">
+        <div class="personagem">
+            <img src="image/DwightFairfield.webp" alt="DwightFairfield">
+            <div>Dwight Fairfield</div>
+        </div>
+        <div class="personagem">
+            <img src="image/MegThomas.webp" alt="MegThomas">
+            <div>Meg Thomas</div>
+        </div>
+        <div class="personagem">
+            <img src="image/ClaudetteMorel.webp" alt="ClaudetteMorel">
+            <div>Claudette Morel</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="personagem">
+            <img src="image/JakePark.webp" alt="JakePark">
+            <div>Jake Park</div>
+        </div>
+        <div class="personagem">
+            <img src="image/NeaKarlsson.webp" alt="NeaKarlsson">
+            <div>Nea Karlsson</div>
+        </div>
+        <div class="personagem">
+            <img src="image/BillOverbeck.webp" alt="BillOverbeck">
+            <div>Bill Overbeck</div>
+        </div>
+    </div>
+    
+    <!-- o saiba mais -->
+    <div id="pagina">Saiba mais sobre os <a target="_blank" href="site assassinos.html">Assassinos →</a></div>
+
+    <!-- rodapé do site -->
+    <footer> 
+        <p>Behaviour Interactive. © 2024. Todos os direitos reservados.</p>
+        <a target="_blank" href="https://deadbydaylight.com/">SITE OFICIAL <img src="image/logo-BeHaviour.png" alt="behaviour icon" width="20px"></a>
+    </footer>
+
+    <!-- Usando o JAVASCRIPT pra tela de carregamento -->
+    <script>
+        // Espera até que o conteúdo da página esteja carregado
+        document.addEventListener('DOMContentLoaded', function() {
+            // Espera 1 segundo antes de fazer qualquer coisa
+            setTimeout(function() {
+                // Adiciona a classe 'loaded' ao <body> depois do atraso
+                document.body.classList.add('loaded');
+            }, 3000); // Tempo de espera de 1 segundo
+        });
+    </script>
+</body>
+</html>

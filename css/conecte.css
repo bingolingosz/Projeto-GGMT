@@ -1,38 +1,38 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-attachment: fixed; /*pra tirar a barrinha da pagina*/
+}
+
+.containerform {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-image: url('https://i.pinimg.com/736x/62/5e/81/625e81f03d91889401a95a7499db0056.jpg');
-    background-attachment: fixed;
 }
 
-.container {
+.containerform2 {
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
+    margin: 143px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
 
-h2 {
+.containerform h2 {
     text-align: center;
     margin-bottom: 20px;
 }
 
-form {
+.containerform form {
     display: flex;
     flex-direction: column;
 }
 
-label {
+.containerform label {
     margin-bottom: 5px;
 }
 
-input {
+.containerform input {
     margin-bottom: 15px;
     padding: 8px;
     border: 1px solid #ccc;
@@ -40,11 +40,11 @@ input {
     transition: border-color 0.3s;
 }
 
-input:hover {
+.containerform input:hover {
     border-color: #007BFF;
 }
 
-button {
+.containerform button {
     padding: 10px;
     background-color: #007BFF;
     color: #fff;
@@ -54,23 +54,23 @@ button {
     transition: background-color 0.3s, transform 0.3s;
 }
 
-button:hover {
+.containerform button:hover {
     background-color: #0056b3;
     transform: scale(1.05);
 }
 
-p {
+.containerform p {
     text-align: center;
     margin-top: 10px;
 }
 
-a {
+.containerform a {
     color: #007BFF;
     text-decoration: none;
     transition: color 0.3s;
 }
 
-a:hover {
+.containerform a:hover {
     color: #0056b3;
     text-decoration: underline;
 }
