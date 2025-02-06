@@ -1,0 +1,64 @@
+body {
+    background-attachment: fixed; /*pra tirar a barrinha da pagina*/
+}
+.containerconectar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerconectar2 {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    margin: 143px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+.containerconectar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.containerconectar form {
+    display: flex;
+    flex-direction: column;
+}
+.containerconectar label {
+    margin-bottom: 5px;
+}
+.containerconectar input {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+.containerconectar input:hover {
+    border-color: #007BFF;
+}
+.containerconectar button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transconectar 0.3s;
+}
+.containerconectar button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+.containerconectar p {
+    text-align: center;
+    margin-top: 10px;
+}
+.containerconectar a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.containerconectar a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+.sobrenos {
+    margin: 40px;
+    text-align: center;
+}
+.sobrenos h1 {
+    font-family:'Kestoy Rock Kestoy Rock';
+    color: #fff;
+}
+.sobrenos p {
+    color: #fff;
+    font-size: 19px;
+    padding: 10px;
+    
+    padding-bottom: 2%;
+}
+.sobrenos figure {
+    width: 100%;
+    display: inline-block;
+}

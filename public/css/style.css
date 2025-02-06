@@ -1,0 +1,86 @@
+/* -----------------------
+    CSS DO INICIO
+----------------------- */
+.inicio {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    padding: 20px;
+    /* background-color: #c4c4c4; */
+    /* background-image: url('/public/images/fundonuvem.jpg'); */
+}
+.inicio p {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    /* padding-bottom: 2%; */
+    margin: 20px;
+    text-shadow: 2px 2px 0 #000;
+    /* text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; */
+    /* text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; */
+}
+.ceu {
+    color: #fff;
+    font-size: 15px;
+    text-shadow: 2px 2px 0 #000;
+    /* text-shadow: 2px 2px 0 black, -2px -2px 0 black, 1px -1px 0 black, -1px 1px 0 black; */
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.quadrado1 {
+    color: #fff;
+    background-color: #d31515;
+    border: 3px solid #111111;
+    border-radius: 19px;
+    margin: 10px 50px;
+    padding: 15px 30px;
+    text-align: center;
+}
+.quadrado1:hover {
+    background-color: #530808;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+}
+.quadrados {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; /* Permite que os quadrados "desçam" para a próxima linha quando ultrapassar o limite */
+}
+.quadradofonte {
+    color: #fff;
+    display: flex;
+    margin-left: 12%;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.quadrado {
+    font-weight: bolder;
+    background-color: #ffffff;
+    border: 3px solid #111111;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Garantir que o padding e a margem sejam considerados no tamanho total */
+}
+.quadrado a {
+    color: #000;
+}
+.quadrado:hover {
+    /* background-color: #fdbaba; */
+    background-color: #d4d4d4;
+
+    cursor: pointer;
+}

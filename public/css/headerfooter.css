@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Kestoy Rock Kestoy Rock';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kestoy Rock Kestoy Rock'), url('/public/fonts/Kestoy\ Selfie.woff') format('woff');
+    font-weight:normal;
+    font-size:42px;
+    }
+:root{
+    --corPrincipal: #0075FF;
+    --fontPrinciapal: black;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: "Poppins", serif;
+    background-color: #102d4e;
+    /* background-color: #1f1f1f; */
+    border: 2px solid var(--fontPrinciapal);
+}
+
+/* -----------------------
+    CSS DO HEADER
+----------------------- */
+.principal {
+    padding: 15px;
+    background-color: var(--corPrincipal);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+    padding: 10px 200px;
+    
+}
+.principal h1 {
+    font-size: 50px;
+}
+.icone {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    font-size: 40px; /* Aumenta o tamanho do ícone */
+}
+.icone a {
+    color: inherit; /* Herda a cor do elemento pai */
+    padding: 0px 5px;
+    text-decoration: none;
+}
+.icone a:hover {
+    /* color: #93bceb; */
+    color: #d4d4d4;
+}
+.iconeuser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 50px;
+}
+.busca {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.pesquisar {
+    position: relative;
+    width: 100%;
+}
+.pesquisar i {
+    position: absolute;
+    left: 15px; /* Ajuste a posição do ícone para que não sobreponha o texto */
+    top: 50%;
+    transform: translateY(-50%);
+    color: black; /* Cor preta para o ícone */
+    font-size: 18px; /* Tamanho do ícone */
+}
+.pesquisar input {
+    height: 40px; /* Aumenta a altura do campo de texto */
+    width: 600px; /* Ajusta a largura do campo de texto */
+    padding-left: 35px; /* Adiciona espaço à esquerda para a lupa */
+    font-size: 16px;
+    border: 2px solid #fff; /* Cor e espessura da borda */
+    border-radius: 20px; /* Valor do arredondamento */
+    padding: 10px; /* Espaçamento interno */
+}
+.pesquisar input:hover {
+    background-color: rgb(235, 245, 255);
+}
+header{
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--corPrincipal);
+    border-top: 1px solid #fff; /* Define a linha */
+    width: 100%;                /* Largura da linha */
+}
+header nav {
+    width: 100%;
+    display: flex;
+    justify-self: center;
+}
+header nav ul{
+    margin: 0 auto;
+}
+header nav ul li {
+    color: #fff;
+    display: inline-block;
+    list-style-type: none; /* prar tirar os pontinho que vem do link */
+    position: relative; /* adicionado por conta do position: absolute; */
+    font-weight: 800;
+    font-size: 20px;
+}
+header nav ul li a {
+    text-decoration: none; /* remove o underline */
+    padding: 30px 40px; /* pra aumentar o espaçamento dentro dos blocos das "fontes" */
+    color: inherit; /* Herda a cor do elemento pai */
+    text-decoration: none; /* Remove o sublinhado */
+    
+}
+header nav ul li a:hover{
+    color: #d4d4d4; /* Cor do link ao passar o mouse */
+}
+
+/* -----------------------
+    CSS DO FOOTER
+----------------------- */
+footer {
+    color: #fff;
+    background-color: #111111;
+    padding: 1.5rem 14%;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1rem;
+}
+footer ul .icons {
+    margin: 0rem 1rem;
+}
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 1rem 1rem;
+}
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}

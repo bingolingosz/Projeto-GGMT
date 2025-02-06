@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    background-color: black; /* cor do fundo da pagina*/
+    color: white; /* cor de todas as fontes */
+    text-align: center; /* centralizar todos textos */
+    margin: 0px; /* pra deixar a pagina sem borda */
+}
+
+header {
+    background-color: rgb(95, 23, 23); /* fundo do cabeçalho */
+    padding: 15px; /* Menos preenchimento */
+}
+
+.titulo {
+    font-family: "Source Code Pro", monospace; /* fonte */
+    text-align: center; /* centralizar texto */
+    padding: 10px; /* Menos preenchimento para não ocupar tanto espaço */
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: white; /* cor da fonte */
+}
+
+.container {
+    display: flex; /* Configura o contêiner como um flex container */
+    justify-content: center; /* Alinha os itens ao centro do eixo principal (horizontal por padrão) */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a linha seguinte */
+}
+
+.personagem {
+    font-family: "Source Code Pro", monospace;
+    font-size: 30px; /* tamanho da fonte */
+    text-align: center; /* centralizar texto */
+    background-color: rgb(78, 53, 53); /* fundo do bloco */
+    border-radius: 20px; /* Menos arredondado */
+    display: flex; /* Configura como um flex container */
+    flex-direction: column; /* pra ficar em coluna */
+    align-items: center; /* pra centralizar a coluna */
+    max-width: 300px; /* tamanho máximo */
+    max-height: 350px; /* tamanho máximo */
+    margin: 20px; /* Menor espaço entre blocos */
+    padding: 20px; /* Mais preenchimento dentro do bloco */
+}
+
+/* ':hover' é utilizado para aplicar estilos a um elemento quando passa o cursor sobre ele. */
+.personagem:hover {
+    background-color: rgb(63, 63, 63); /* cor de fundo */
+    /* Muda o cursor para uma mãozinha indicando que o elemento é clicável */ 
+    cursor: pointer;
+    /* Aumenta o tamanho do elemento em 10% quando o mouse passa sobre ele */
+    transform: scale(1.1);
+    /* Aplica uma transição suave para as mudanças de cor de fundo e escala */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.personagem img {
+    width: 80%;  /* tamanho da imagem */
+    display: flex; /* Configura o contêiner como um flex container */
+    justify-content: center; /* pra deixar em linha E sua posição */
+    padding: 20px; /* Mais preenchimento dentro do bloco */
+}
+
+#pagina {
+    text-align: right; /* deixar o texto pra direita */
+    padding: 10px; /* Mais preenchimento */
+}
+
+#pagina a { 
+    color: rgb(66, 75, 90); /* cor do link */
+    text-decoration: underline; /* Aplica sublinhado ao link */
+}
+
+footer {
+    background-color: rgb(95, 23, 23); /* cor fundo */
+    padding: 15px; /* Mais preenchimento */
+    line-height: 1.5; /* Menos espaçamento entre linhas */
+}
+
+/* Estilo para a tela de carregamento */
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease-out;
+    opacity: 1;
+}
+
+.loader {
+    width: 300px;
+    height: 300px;
+    background: url('image/dbd_loading.gif') no-repeat center center;
+    background-size: contain;
+}
+
+/* Estilo para o conteúdo principal */
+.content {
+    display: none;
+}
+
+/* Após o carregamento da página, exibe o conteúdo e oculta a tela de carregamento */
+body.loaded .loader-wrapper {
+    opacity: 0;
+    visibility: hidden;
+}
+
+body.loaded .content {
+    display: block;
+}
