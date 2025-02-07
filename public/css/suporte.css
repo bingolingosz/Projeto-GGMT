@@ -1,20 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
 body {
-  background: url('https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-cartoon-minimalistic-stars-background-design-backgroundskynightillustration-backgroundadvertising-backgroundbackground-image_58101.jpg') no-repeat center center fixed;
   background-size: cover;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+  align-items: center; */
 }
-
 .contact-container {
   display: flex;
   background-color: #ffffff;
@@ -24,7 +13,6 @@ body {
   width: 70%;
   max-width: 900px;
 }
-
 .form-section {
   padding: 2rem;
   width: 50%;
@@ -33,18 +21,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  width: 100%;
 }
-
 .form-section h2 {
   margin-bottom: 1.5rem;
   color: #333333;
 }
-
-form {
-  width: 100%;
-}
-
-input, textarea {
+.form-section input, textarea {
   width: 100%;
   padding: 0.8rem;
   margin-bottom: 1rem;
@@ -52,8 +35,7 @@ input, textarea {
   border-radius: 5px;
   font-size: 1rem;
 }
-
-button {
+.form-section button {
   padding: 0.8rem 1.5rem;
   background-color: #ff4081;
   color: white;
@@ -62,11 +44,9 @@ button {
   cursor: pointer;
   font-size: 1rem;
 }
-
-button:hover {
+.form-section button:hover {
   background-color: #e63670;
 }
-
 .image-section {
   width: 50%;
   display: flex;
@@ -75,7 +55,6 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 0;
 }
-
 .image-section img {
   width: 100%;
   height: 100%;
