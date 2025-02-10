@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* Reset  básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.banner {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background: #d81b60;
+
+}
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    background: #e91e63;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+button:hover {
+    background: violet;
+}
+
+/* Grid para exibir os jogos em 3 colunas e 2 linhas  */
+
+.games-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3colunas */
+    gap: 20px;
+    /* Espaçamento entre os itens */
+    justify-content: center;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+
+}
+
+/* Estilização dos cards */
+.games-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+}
+
+.game-card img {
+    width: 100%;
+    max-width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.game-card h2 {
+    font-size: 10px;
+    margin: 10px 0;
+}
+
+
+.game-card p {
+    font-size: 14px;
+    color: #333;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none !important;
+}
+
+/*  Começo Jogos Principal  */
+
+
+/* Container principal */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Estilo da seção de detalhes do jogo */
+.game-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.game-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+/* Lista de detalhes dos jogos */
+.game-info ul {
+    list-style: none;
+    text-align: left;
+}
+
+.game-info ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+/* Botão de download */
+.download-btn {
+    display: block;
+    text-align: center;
+    background: #ff5733;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background: #c70039;
+
+}
+
+/* icones de download */
+.icones {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.icones h1 {
+    margin-bottom: 15px;
+}
+
+.icones img {
+    width: 50px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.icones img hover {
+    transform: scale(1.2);
+
+}
+
+/* Seção de screenshots */
+.game-screenshots {
+    margin-top: 30px;
+}
+
+.game-screenshots h2 {
+    margin-bottom: 20px;
+}
+
+/* Ajuste o carrosel */
+.carousel-inner {
+    display: flex;
+    overflow-x: auto;
+    /* Ativa a rolagem horizontal */
+    scroll-snap-type: mandatory;
+    gap: 10px;
+    /* Espaço entre as imagens */
+}
+
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    /* Ajuste conforme necessario */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* biografia */
+.bio-section {
+    background-color: rgba(0, 0, 0, 0.1);
+    /* fundo semi-transparaente */
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+
+}
+
+.download-btn {
+    display: block;
+    text-align: center;
+    background: #ff5733;
+    color: white;
+    /* Força a cor branca */
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Rodape */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+#carouselExampleAutoplaying
+{
+    width: 100%;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
