@@ -1,0 +1,49 @@
+.conteudos{
+    font-family:'Kestoy Rock Kestoy Rock';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: 30px;
+    margin: 40px 20px;
+}
+.conteudos img {
+    max-width: 250px;
+    max-height: 300px;
+}
+.conteudos .p {
+    font-size: 70px;
+}
+.conteudos a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 70px;
+}
+.conteudos a:hover {
+    color: #d4d4d4;
+    transition: color 0.3s;
+}
+.sobrethayna, .sobreguilherme {
+    display: flex;
+    justify-content: center;
+    margin-left: 800px;
+}
+.sobrethayna2, .sobreguilherme2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+    padding: 0px 30px;
+}
+.sobregeovana, .sobrematheus {
+    display: flex;
+    justify-content: center;
+    margin-right: 800px;
+}
+.sobregeovana2, .sobrematheus2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 0px 30px;
+}

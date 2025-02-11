@@ -8,7 +8,7 @@ body {
 }
 .containerconectar2 {
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #d4d4d4;
     padding: 50px;
     margin: 143px;
     border-radius: 8px;
@@ -34,11 +34,11 @@ body {
     transition: border-color 0.3s;
 }
 .containerconectar input:hover {
-    border-color: #007BFF;
+    border-color: #530808;
 }
 .containerconectar button {
     padding: 10px;
-    background-color: #007BFF;
+    background-color: #d31515;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -46,7 +46,7 @@ body {
     transition: background-color 0.3s, transconectar 0.3s;
 }
 .containerconectar button:hover {
-    background-color: #0056b3;
+    background-color: #530808;
     transform: scale(1.05);
 }
 .containerconectar p {
@@ -54,11 +54,11 @@ body {
     margin-top: 10px;
 }
 .containerconectar a {
-    color: #007BFF;
+    color: #d31515;
     text-decoration: none;
     transition: color 0.3s;
 }
 .containerconectar a:hover {
-    color: #0056b3;
+    color: #530808;
     text-decoration: underline;
 }

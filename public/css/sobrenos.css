@@ -5,13 +5,19 @@
 .sobrenos h1 {
     font-family:'Kestoy Rock Kestoy Rock';
     color: #fff;
+    font-size: 50px;
+    letter-spacing: 2px;
 }
 .sobrenos p {
+    /* font-family:'Kestoy Rock Kestoy Rock'; */
+    /* font-size: 32px; */
     color: #fff;
     font-size: 19px;
     padding: 10px;
-    
-    padding-bottom: 2%;
+    margin-bottom: 10px;
+}
+.sobrenos a {
+    color: #d31515;
 }
 .sobrenos figure {
     width: 100%;

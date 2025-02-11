@@ -1,8 +1,9 @@
 body {
   background-size: cover;
-  /* display: flex;
+}
+.containercontactar{
+  display: flex;
   justify-content: center;
-  align-items: center; */
 }
 .contact-container {
   display: flex;
@@ -12,11 +13,12 @@ body {
   overflow: hidden;
   width: 70%;
   max-width: 900px;
+  margin: 143px;
 }
 .form-section {
   padding: 2rem;
   width: 50%;
-  background-color: rgba(224, 244, 255, 0.9);
+  background-color: #d4d4d4;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,7 +39,7 @@ body {
 }
 .form-section button {
   padding: 0.8rem 1.5rem;
-  background-color: #ff4081;
+  background-color: #d31515;
   color: white;
   border: none;
   border-radius: 5px;
@@ -45,7 +47,7 @@ body {
   font-size: 1rem;
 }
 .form-section button:hover {
-  background-color: #e63670;
+  background-color: #530808;
 }
 .image-section {
   width: 50%;

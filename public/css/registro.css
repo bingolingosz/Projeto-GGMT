@@ -1,4 +1,4 @@
-Gbody {
+body {
     background-attachment: fixed; /*pra tirar a barrinha da pagina*/
 }
 .containerregistro {
@@ -8,7 +8,7 @@ Gbody {
 }
 .containerregistro2 {
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #d4d4d4;
     padding: 50px;
     margin: 143px;
     border-radius: 8px;
@@ -34,11 +34,11 @@ Gbody {
     transition: border-color 0.3s;
 }
 .containerregistro input:hover {
-    border-color: #007BFF;
+    border-color: #530808;
 }
 .containerregistro button {
     padding: 10px;
-    background-color: #007BFF;
+    background-color: #d31515;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -46,7 +46,7 @@ Gbody {
     transition: background-color 0.3s, transform 0.3s;
 }
 .containerregistro button:hover {
-    background-color: #0056b3;
+    background-color: #530808;
     transform: scale(1.05);
 }
 .containerregistro p {
@@ -54,11 +54,11 @@ Gbody {
     margin-top: 10px;
 }
 .containerregistro a {
-    color: #007BFF;
+    color: #d31515;
     text-decoration: none;
     transition: color 0.3s;
 }
 .containerregistro a:hover {
-    color: #0056b3;
+    color: #530808;
     text-decoration: underline;
 }
