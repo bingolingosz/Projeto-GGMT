@@ -1,0 +1,14 @@
+/* Estilo da div que vai conter o iframe */
+.conteudo {
+    width: 80%; /* Ajuste o tamanho como desejar */
+    height: 900px; /* Ajuste a altura como desejar */
+    border: 2px solid #000; /* Borda para destacar a área */
+    margin: 0 auto; /* Centraliza a div */
+    overflow: hidden; /* Para esconder a barra de rolagem, se necessário */
+}
+.conteudo iframe {
+    width: 100%;
+    height: 100%;
+    border: none; /* Remove a borda do iframe */
+    zoom: 0.8; /* Reduz o conteúdo para 80% do tamanho original */
+}
