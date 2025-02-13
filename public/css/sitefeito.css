@@ -1,3 +1,41 @@
+.container-banner{
+    margin: 0px 190px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-bottom: #0075FF 8px solid;
+    background: #d4d4d4;
+}
+.container-banner2 {
+    display: flex;
+    padding: 10px 100px;
+    align-items: flex-end;
+}
+.container-banner img {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #000;
+    border-radius: 100px;
+}
+.container-banner a {
+    font-family:'Kestoy Rock Kestoy Rock';
+    color: #000;
+    font-size: 40px;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+.container-banner p {
+    color: #000;
+    font-size: 16px;
+    padding: 0px 10px;
+}
+.descricao p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.descricao-site {
+    padding: 10px;
+    margin: 10px 90px;
+}
 /* Estilo da div que vai conter o iframe */
 .conteudo {
     width: 80%; /* Ajuste o tamanho como desejar */

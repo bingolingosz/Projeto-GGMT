@@ -52,6 +52,12 @@ a {
     flex-direction: column;
     margin: 0px 100px;
 }
+.ver-mais {
+    color: #0075FF;
+    text-decoration: underline;
+    text-align: end;
+    padding: 0px 200px;
+}
 .quadrados {
     display: flex;
     justify-content: center;

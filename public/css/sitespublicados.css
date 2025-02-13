@@ -5,13 +5,13 @@
     box-sizing: border-box;
     /* font-family: "Quicksand", serif; */
 }
-.titulo p {
+.titulo h1 {
     font-family:'Kestoy Rock Kestoy Rock';
     color: #fff;
+    font-size: 50px;
     letter-spacing: 2px;
     text-align: center;
-    font-size: 5rem;
-    margin: 20px 0px;
+    margin: 40px;
 }
 section {
     background-color: #d4d4d4;
