@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre nós</title>
+    <link rel="stylesheet" href="css/sobrenos.css">
+    <link rel="stylesheet" href="css/headerfooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="principal">
+        <a href="inicio"><img src="images/logoskayhub.png" alt="logo" width="200px"></a>
+
+        <form action="" class="busca">
+            <div class="pesquisar">
+                <input type="text" placeholder="Pesquisar">
+            </div>
+        </form>
+
+        <div class="icone">
+            <a href="conecte"><i class="fa-solid fa-user"></i></a>
+            <div class="iconeuser">
+                <p>Olá, <a href="conecte">ENTRE</a> ou <br>
+                    <a href="registro">CADASTRE-SE</a>
+                </p>
+            </div>
+            <a href="#"><i class="fa-solid fa-cloud-arrow-up"></i></a>
+        </div>
+    </div>
+
+    <header>
+       <nav>
+         <ul>
+            <li><a href="inicio">INICIO</a></li>
+            <li>|</li>
+            <li><a href="sitespublicados">SITES</a></li>
+            <li>|</li>
+            <li><a href="indie">JOGOS</a></li>
+            <li>|</li>
+            <li><a href="sobrenos">SOBRE NÓS</a></li>
+         </ul>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO -->
+    <div class="sobrenos">
+        <h1>SOBRE NÓS</h1>
+
+        <p>Estamos muito animados com nossos sites! Eles são o resultado do esforço da nossa equipe, com um design moderno e conteúdo relevante para oferecer uma excelente experiência aos visitantes. Nosso objetivo é facilitar o acesso às informações e aos nossos serviços de forma rápida e intuitiva. Estamos sempre atualizando nossos sites para atender às necessidades dos clientes e, no blog, compartilhamos novidades e dicas. O feedback positivo dos visitantes nos motiva a continuar melhorando e facilitando a vida de todos.
+        <p>Se você está interessado em saber mais sobre nós e as pessoas que estão por trás deste projeto, convidamos você a conhecer nossa equipe! No nosso site, você encontrará mais informações sobre cada membro e como trabalhamos juntos para criar o que você está vendo agora. Não deixe de conferir clicando <a href="equipe">aqui</a>!</p>
+        <figure>
+            <img src="images/colegas.png" alt="amigos abraçados" width="40%">
+        </figure>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <ul>
+            <li class="icons"><a href="#"><img src="images/icon instagram.png" alt="Instagram" width="30px"></a></li>
+            <li class="icons"><a href="#"><img src="images/icon twitter.png" alt="Twitter" width="30px"></a></li>
+            <li class="icons"><a href="#"><img src="images/icon linkedin.png" alt="linkedin" width="30px"></a></li>
+            <li class="icons"><a href="#"><img src="images/icon github.png" alt="Github" width="30px"></a></li>
+        </ul>
+
+        <ul>
+            <li><a href="inicio">Inicio</a></li>
+            <li>|</li>
+            <li><a href="equipe">Equipe</a></li>
+            <li>|</li>
+            <li><a href="suporte">Suporte</a></li>
+        </ul>
+        <p> Copyright &copy;2025 SkayHub. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

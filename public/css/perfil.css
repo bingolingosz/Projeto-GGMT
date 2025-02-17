@@ -1,5 +1,53 @@
+.perfilhead{
+    background-color: #d4d4d4;
+    padding: 30px;
+    color: black;
+    border-radius: 10px;
+    border-bottom: #0075FF 8px solid;
+    margin: 0px 200px;
+}
+.perfilhead p{
+    color:black
+}
 .perfil {
-    background-color: red;
-    color: #fff;
-    text-align: center;
+    display: flex;
+    padding-left: 0px;
+    gap: 50px; /* Adiciona um espaçamento de 20px entre os itens */
+}
+.perfil img{
+    border: 3px black solid;
+    width: 200px;
+}
+.redes{
+    padding-top:130px ;
+    display: flex;
+    gap: 10px;
+}
+.redes img{
+    width: 40px;
+    border: none;
+}
+section{
+    padding: 50px;
+    align-items: center;
+}
+section p{
+    padding-top: 40px ;
+    color: white;
+}
+.publicacoes{
+    color: white;
+    padding-top: 40px;
+    padding-left:400px ;
+
+}
+.publicacoes img{
+    width: 300px;
+    height: 200px;
+    border: 4px black solid;
+}
+.site{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
 }

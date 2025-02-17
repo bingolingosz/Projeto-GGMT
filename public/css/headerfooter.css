@@ -4,7 +4,7 @@
     font-family: 'Kestoy Rock Kestoy Rock';
     font-style: normal;
     font-weight: normal;
-    src: local('Kestoy Rock Kestoy Rock'), url('/public/fonts/Kestoy\ Selfie.woff') format('woff');
+    src: local('Kestoy Rock Kestoy Rock'), url('/fonts/Kestoy\ Selfie.woff') format('woff');
     font-weight:normal;
     font-size:42px;
 }
@@ -16,7 +16,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+
 }
 body {
     font-family: "Poppins", serif;
@@ -38,7 +38,7 @@ body {
     width: 100%;
     gap: 100px;
     padding: 10px 200px;
-    
+
 }
 .principal h1 {
     font-size: 50px;
