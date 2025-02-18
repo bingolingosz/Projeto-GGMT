@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    {{-- @php
+        use App\Http\Controllers\ProjetosController;
+        ProjetosController::checaUsuario();
+    @endphp --}}
+
     <!-- HEADER -->
     <div class="principal">
         <a href="inicio"><img src="images/logoskayhub.png" alt="logo" width="200px"></a>

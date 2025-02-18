@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    @php
+        if( isset($_GET['erro']))
+        {
+            echo "erro";
+        }
+    @endphp
     <!-- HEADER -->
     <div class="principal">
         <a href="inicio"><img src="images/logoskayhub.png" alt="logo" width="200px"></a>
@@ -48,7 +54,8 @@
     <section class="containerconectar">
         <div class="containerconectar2">
             <h2>Conecte-se</h2>
-            <form action="#" method="post">
+            <form action="/checa" method="post">
+                @csrf
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
 

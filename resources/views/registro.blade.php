@@ -48,9 +48,10 @@
     <div class="containerregistro">
         <div class="containerregistro2">
             <h2>Registre-se</h2>
-            <form action="#" method="post">
-                <label for="telefone">Telefone:</label>
-                <input type="text" id="telefone" name="telefone" required>
+            <form action="/cadastro" method="post">
+                @csrf {{-- Tem que ser obrigatório, ele gera um token único pra saber se foi enviado do próprio site --}}
+                <label for="Nome:">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>

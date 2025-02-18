@@ -4,19 +4,15 @@ h1 {
     text-align: center;
     font-size: 1rem;
 }
-
 header {
     font-size: 24px;
 }
-
 .banner {
     padding: 10px;
     border-radius: 5px;
     text-align: center;
     background: #d81b60;
-
 }
-
 .filtros {
     display: flex;
     justify-content: center;
@@ -26,7 +22,6 @@ header {
     border-radius: 5px;
     gap: 10px;
 }
-
 button {
     padding: 8px 15px;
     border: none;
@@ -35,14 +30,10 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
-
-
 button:hover {
     background: violet;
 }
-
 /* Grid para exibir os jogos em 3 colunas e 2 linhas  */
-
 .games-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -53,9 +44,7 @@ button:hover {
     padding: 20px;
     max-width: 900px;
     margin: auto;
-
 }
-
 /* Estilização dos cards */
 .games-card {
     background: white;
@@ -65,11 +54,9 @@ button:hover {
     text-align: center;
     transition: transform 0.3s ease;
 }
-
 .game-card:hover {
     transform: translateY(-5px);
 }
-
 .game-card img {
     width: 100%;
     max-width: 200px;
@@ -77,27 +64,20 @@ button:hover {
     object-fit: cover;
     border-radius: 5px;
 }
-
 .game-card h2 {
     font-size: 1.3rem;
     margin: 10px 0;
     color: #fff;
 }
-
-
 .game-card p {
     font-size: 14px;
     color: #e7e7e7;
 }
-
 .carousel-control-prev,
 .carousel-control-next {
     display: none !important;
 }
-
 /*  Começo Jogos Principal  */
-
-
 /* Container principal */
 main {
     width: 90%;
@@ -108,9 +88,6 @@ main {
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-
-
-
 /* Estilo da seção de detalhes do jogo */
 .game-details {
     display: flex;
@@ -118,25 +95,21 @@ main {
     justify-content: space-between;
     padding: 20px;
 }
-
 .game-info {
     display: flex;
     align-items: center;
     gap: 20px;
     border-radius: 10px;
 }
-
 /* Lista de detalhes dos jogos */
 .game-info ul {
     list-style: none;
     text-align: left;
 }
-
 .game-info ul li {
     margin-bottom: 8px;
     font-size: 16px;
 }
-
 /* Botão de download */
 .download-btn {
     display: block;
@@ -152,50 +125,37 @@ main {
     border: none;
     cursor: pointer;
 }
-
 .download-btn:hover {
     background: #c70039;
-
 }
-
 /* icones de download */
 .icones {
     text-align: center;
     margin-top: 20px;
-
 }
-
-.icones a
-{
+.icones a{
     text-decoration: none;
     color: inherit;
 }
-
 .icones h1 {
     margin-bottom: 15px;
 }
-
 .icones img {
     width: 50px;
     margin: 0 10px;
     transition: transform 0.3s;
 }
-
 .icones img hover {
     transform: scale(1.2);
-
 }
-
 /* Seção de screenshots */
 .game-screenshots {
     margin-top: 30px;
     color: #fff;
 }
-
 .game-screenshots h2 {
     margin-bottom: 20px;
 }
-
 /* Ajuste o carrosel */
 .carousel-inner {
     display: flex;
@@ -205,8 +165,6 @@ main {
     gap: 10px;
     /* Espaço entre as imagens */
 }
-
-
 .carousel-item img {
     width: 100%;
     height: 500px;
@@ -214,7 +172,6 @@ main {
     object-fit: cover;
     border-radius: 10px;
 }
-
 /* biografia */
 .bio-section {
     background-color: rgba(0, 0, 0, 0.1);
@@ -223,9 +180,7 @@ main {
     border-radius: 10px;
     margin: 20px 0;
     color: #fff;
-
 }
-
 .download-btn {
     display: block;
     text-align: center;
@@ -241,15 +196,12 @@ main {
     border: none;
     cursor: pointer;
 }
-
-.download-btn:hover
-{
+.download-btn:hover{
     background: #e04e2a;
     color: white;
     text-decoration: none;
     outline: none;
 }
-
 /* Rodape */
 footer {
     margin-top: 20px;
@@ -258,13 +210,9 @@ footer {
     color: white;
     border-radius: 5px;
 }
-
-#carouselExampleAutoplaying
-{
+#carouselExampleAutoplaying{
     width: 100%;
-
 }
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -273,43 +221,25 @@ table {
     border-radius: 5px;
     overflow: hidden;
 }
-
-th,
-td {
+th, td {
     padding: 10px;
     border-bottom: 1px solid #ddd;
     text-align: left;
 }
-
 th {
     background-color: #007bff;
     color: white;
 }
-
 td a {
     color: #007bff;
     text-decoration: none;
 }
-
 td a:hover {
     text-decoration: underline;
 }
-
-.cobrinha h1
-{
+.cobrinha h1{
     color: #fff;
 }
-
-.description
-{
+.description{
     color: #fff;
 }
-
-
-
-
-
-
-
-
-

@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\ProjetosController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -52,6 +54,10 @@ Route::get('/sobrenos', function () {
 Route::get('/suporte', function () {
     return view('suporte');
 });
+
+Route::post('/cadastro', [ProjetosController::class,"cadastroUsuario"]);
+
+Route::post('/checa', [ProjetosController::class,"checaUsuario"]);
 
 // Sites do matheus
 
